@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Cart from '../../components/Cart/Cart';
 import ProductList from '../../components/ProductList/ProductList';
+import { data } from '../../database/data';
 
 const ProductMain = styled.main`
     display: flex;
@@ -11,9 +12,10 @@ const ProductMain = styled.main`
 `;
 
 export default function HomePage() {
+    console.log(data);
     return (
         <ProductMain>
-            <ProductList />
+            <ProductList products={data} />
             <Cart />
         </ProductMain>
     );
