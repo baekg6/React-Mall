@@ -21,9 +21,9 @@ function App() {
             <GlobalStyle />
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="/product/:id" element={<ProductDetail />} />
-                    <Route path="/order" element={<OrderPage />} />
+                    <Route path="/React-Mall/" element={<HomePage />} />
+                    <Route path="/React-Mall/product/:id" element={<ProductDetail />} />
+                    <Route path="/React-Mall/order" element={<OrderPage />} />
                 </Routes>
             </BrowserRouter>
         </>

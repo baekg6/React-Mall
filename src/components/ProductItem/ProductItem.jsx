@@ -18,7 +18,7 @@ const ProductItemLink = styled(Link)`
 export default function ProductItem({ item }) {
     return (
         <ProductItemCard>
-            <ProductItemLink to={`/product/${item.id}`}>
+            <ProductItemLink to={`/React-Mall/product/${item.id}`}>
                 <ProductImg src={item.thumbnailImg} />
                 <ProductName name={item.productName} />
                 <LikeButton />

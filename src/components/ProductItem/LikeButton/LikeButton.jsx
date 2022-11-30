@@ -21,7 +21,8 @@ const LikeButtonCont = styled.button`
 
 export default function LikeButton() {
     const [like, setLike] = useState(false);
-    const onToggle = () => {
+    const onToggle = (e) => {
+        e.preventDefault();
         setLike(!like);
     };
     return <LikeButtonCont like={like} onClick={onToggle}></LikeButtonCont>;

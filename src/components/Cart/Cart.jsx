@@ -11,5 +11,5 @@ const CartButton = styled(Link)`
 `;
 
 export default function Cart() {
-    return <CartButton to={'/order'}></CartButton>;
+    return <CartButton to={'/React-Mall/order'}></CartButton>;
 }
