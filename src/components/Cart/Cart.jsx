@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import CartIcon from '../../assets/images/icon-shopping-cart-white.svg';
-const CartButton = styled.a`
+const CartButton = styled(Link)`
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -10,5 +11,5 @@ const CartButton = styled.a`
 `;
 
 export default function Cart() {
-    return <CartButton></CartButton>;
+    return <CartButton to={'/cart'}></CartButton>;
 }
