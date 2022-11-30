@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Mall/static/css/main.3f3c1b38.css",
+    "main.js": "/React-Mall/static/js/main.769705fa.js",
+    "static/media/icon-shopping-cart-white.svg": "/React-Mall/static/media/icon-shopping-cart-white.909bd7a386e439bf8c64725421fe7391.svg",
+    "static/media/icon-heart-on.svg": "/React-Mall/static/media/icon-heart-on.8074a52f2530e5e08652e7b5698bb63f.svg",
+    "static/media/icon-heart.svg": "/React-Mall/static/media/icon-heart.49b444fc6aa432491a46046a998b8533.svg",
+    "index.html": "/React-Mall/index.html",
+    "main.3f3c1b38.css.map": "/React-Mall/static/css/main.3f3c1b38.css.map",
+    "main.769705fa.js.map": "/React-Mall/static/js/main.769705fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f3c1b38.css",
+    "static/js/main.769705fa.js"
+  ]
+}
