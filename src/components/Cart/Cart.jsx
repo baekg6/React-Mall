@@ -6,6 +6,7 @@ const CartButton = styled.a`
     height: 80px;
     border-radius: 50%;
     background: var(--main-color) url(${CartIcon}) no-repeat center / 40px 40px;
+    cursor: pointer;
 `;
 
 export default function Cart() {

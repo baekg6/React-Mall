@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled, { css } from 'styled-components';
-import HeartIcon from '../../assets/images/icon-heart.svg';
-import HeartOnIcon from '../../assets/images/icon-heart-on.svg';
+import HeartIcon from '../../../assets/images/icon-heart.svg';
+import HeartOnIcon from '../../../assets/images/icon-heart-on.svg';
 
 const LikeButtonCont = styled.button`
     width: 22px;
