@@ -6,7 +6,6 @@ const ProductMain = styled.main`
     justify-content: center;
     margin-top: 160px;
     padding-bottom: 156px;
-    background: red;
 `;
 
 export default function HomePage() {
