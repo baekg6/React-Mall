@@ -11,5 +11,5 @@ const CartButton = styled(Link)`
 `;
 
 export default function Cart() {
-    return <CartButton to={'/cart'}></CartButton>;
+    return <CartButton to={'/order'}></CartButton>;
 }

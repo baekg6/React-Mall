@@ -5,7 +5,7 @@ import reset from 'styled-reset';
 import HomePage from './pages/HomePage/HomePage';
 import ProductDetail from './pages/ProductDetail/ProductDetail';
 import './app.css';
-import CartPage from './pages/CartPage/CartPage';
+import OrderPage from './pages/OrderPage/OrderPage';
 
 const GlobalStyle = createGlobalStyle`
     ${reset}
@@ -23,7 +23,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/product/:id" element={<ProductDetail />} />
-                    <Route path="/cart" element={<CartPage />} />
+                    <Route path="/order" element={<OrderPage />} />
                 </Routes>
             </BrowserRouter>
         </>
