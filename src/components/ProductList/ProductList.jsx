@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ProductItem from '../ProductItem/ProductItem';
 
 const ProductListBlock = styled.ul`
     display: grid;
@@ -10,5 +11,11 @@ const ProductListBlock = styled.ul`
 `;
 
 export default function ProductList({ products }) {
-    return <ProductListBlock>ProductList</ProductListBlock>;
+    return (
+        <ProductListBlock>
+            {products.map((product) => (
+                <ProductItem key={product.id} item={product} />
+            ))}
+        </ProductListBlock>
+    );
 }

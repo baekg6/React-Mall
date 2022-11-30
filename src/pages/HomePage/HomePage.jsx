@@ -12,7 +12,7 @@ const ProductMain = styled.main`
 `;
 
 export default function HomePage() {
-    console.log(data);
+    // console.log(data);
     return (
         <ProductMain>
             <ProductList products={data} />
