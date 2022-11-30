@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Cart from '../../components/Cart/Cart';
+import ProductList from '../../components/ProductList/ProductList';
 
 const ProductMain = styled.main`
     display: flex;
