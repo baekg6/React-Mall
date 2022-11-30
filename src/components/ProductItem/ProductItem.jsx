@@ -12,10 +12,9 @@ const ProductItemCard = styled.li`
 `;
 
 export default function ProductItem({ item }) {
-    console.log(item);
     return (
         <ProductItemCard>
-            <ProductImg url={item.thumbnailImg} />
+            <ProductImg src={item.thumbnailImg} />
             <ProductName name={item.productName} />
             <ProductPrice price={item.price} />
         </ProductItemCard>
