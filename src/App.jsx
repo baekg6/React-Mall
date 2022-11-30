@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import HomePage from './pages/HomePage/HomePage';
 import ProductDetail from './pages/ProductDetail/ProductDetail';
+import './app.css';
 
 const GlobalStyle = createGlobalStyle`
     ${reset}

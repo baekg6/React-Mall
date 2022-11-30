@@ -8,6 +8,17 @@ const ProductNameCont = styled.strong`
     margin: 20px 0 10px;
 `;
 
+const SingleEllipsis = styled.strong`
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+`;
+
 export default function ProductName({ name }) {
-    return <ProductNameCont>{name}</ProductNameCont>;
+    return (
+        <ProductNameCont>
+            <SingleEllipsis>{name}</SingleEllipsis>
+        </ProductNameCont>
+    );
 }

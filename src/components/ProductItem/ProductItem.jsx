@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import LikeButton from '../LikeButton/LikeButton';
 import ProductImg from './ProductImg/ProductImg';
 import ProductName from './ProductName/ProductName';
 import ProductPrice from './ProductPrice/ProductPrice';
@@ -16,6 +17,7 @@ export default function ProductItem({ item }) {
         <ProductItemCard>
             <ProductImg src={item.thumbnailImg} />
             <ProductName name={item.productName} />
+            <LikeButton />
             <ProductPrice price={item.price} />
         </ProductItemCard>
     );
