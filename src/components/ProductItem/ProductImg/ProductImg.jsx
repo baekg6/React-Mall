@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ProductImgBlock = styled.img`
+const ProductImgCont = styled.img`
     position: relative;
     width: 380px;
     height: 380px;
@@ -12,5 +12,5 @@ const ProductImgBlock = styled.img`
 
 export default function ProductImg({ src }) {
     const url = 'https://test.api.weniv.co.kr/' + src;
-    return <ProductImgBlock src={url} alt="" />;
+    return <ProductImgCont src={url} alt="" />;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ProductItem from '../ProductItem/ProductItem';
 
-const ProductListBlock = styled.ul`
+const ProductListCont = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
@@ -12,10 +12,10 @@ const ProductListBlock = styled.ul`
 
 export default function ProductList({ products }) {
     return (
-        <ProductListBlock>
+        <ProductListCont>
             {products.map((product) => (
                 <ProductItem key={product.id} item={product} />
             ))}
-        </ProductListBlock>
+        </ProductListCont>
     );
 }
